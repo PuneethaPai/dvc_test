@@ -32,5 +32,5 @@ sys.stderr.write('Y matrix size {}\n'.format(labels.shape))
 clf = RandomForestClassifier(n_estimators=100, n_jobs=2, random_state=seed)
 clf.fit(x, labels)
 
-with open(output, 'wb') as fd:
+with open(output, 'wb+') as fd:
     pickle.dump(clf, fd)

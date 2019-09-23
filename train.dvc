@@ -1,0 +1,13 @@
+md5: c3f5c7380e0f377a6f7952d7fb051558
+cmd: python src/train.py data/features models/rf.pkl
+deps:
+- md5: 3d03d0d59f0d6489081b0518aa974c4d
+  path: src/train.py
+- md5: 42c7025fc0edeb174069280d17add2d4.dir
+  path: data/features
+outs:
+- md5: 662eb7f64216d9c2c1088d0a5e2c6951
+  path: models/rf.pkl
+  cache: true
+  metric: false
+  persist: false
