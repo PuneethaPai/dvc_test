@@ -1,12 +1,12 @@
-md5: bd9b1a2168eb2a0c966595ad764ec43a
+md5: 5cedc2a636a797f78219c311097c4531
 cmd: python src/evaluate.py models/rf.pkl data/features metrics/rf.metric
 deps:
 - md5: ce544d588df78d36d023868d17b5fd75
   path: src/evaluate.py
-- md5: cb696a574c2c41af09f3920e01c44962
+- md5: 5c50585efee00c7e6f4ae9bf49850848
   path: models/rf.pkl
 outs:
-- md5: 63abbb1beb7eda769be2d5c16dba2444
+- md5: 47fb77d453785924d41df05471deaa1e
   path: metrics/rf.metric
   cache: true
   metric:

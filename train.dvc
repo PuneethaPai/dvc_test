@@ -1,12 +1,12 @@
-md5: 4425a6c10d00430d7ff7bd9305e05c06
+md5: f7ad4ab6aa66605807d8a8bb4ca84e0b
 cmd: python src/train.py data/features models/rf.pkl
 deps:
 - md5: 3d03d0d59f0d6489081b0518aa974c4d
   path: src/train.py
-- md5: 4633fda66ea500789c21f5df070cc0f9.dir
+- md5: 0fd3c02ea92977494ea5a0caf98277a3.dir
   path: data/features
 outs:
-- md5: cb696a574c2c41af09f3920e01c44962
+- md5: 5c50585efee00c7e6f4ae9bf49850848
   path: models/rf.pkl
   cache: true
   metric: false
