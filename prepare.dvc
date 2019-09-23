@@ -2,13 +2,12 @@ cmd: python src/prepare.py data/data.xml
 deps:
 - md5: a53e2617a4116854ba575af18f13525f
   path: src/prepare.py
-- md5: a304afb96060aad90176268345e10355
+- md5: 2fef2a936578c5c7479168a0aff7fa5b
   path: data/data.xml
-md5: f5a1e1bfcf46035729ccfc86306ef2ff
+md5: 624f6ab4deede9fb54835d0b91431cce
 outs:
 - cache: true
-  md5: 6836f797f3924fb46fcfd6b9f6aa6416.dir
+  md5: 45ab0430cdeb21b81f3cd7f3f6bac06a.dir
   metric: false
   path: data/test
   persist: false
-wdir: .
