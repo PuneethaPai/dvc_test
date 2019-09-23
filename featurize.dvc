@@ -1,0 +1,13 @@
+md5: d555acb0ae2741ad3d45d66fded34569
+cmd: python src/featurization.py data/test data/features
+deps:
+- md5: 6836f797f3924fb46fcfd6b9f6aa6416.dir
+  path: data/test
+- md5: ef70c6c0fbf4107fdab468af66333f48
+  path: src/featurization.py
+outs:
+- md5: 42c7025fc0edeb174069280d17add2d4.dir
+  path: data/features
+  cache: true
+  metric: false
+  persist: false
