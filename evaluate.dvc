@@ -1,0 +1,13 @@
+md5: dd25031f822110517de65ba7f4854311
+cmd: python src/evaluate.py models/rf.pkl data/features metrics/rf.metric
+deps:
+- md5: ce544d588df78d36d023868d17b5fd75
+  path: src/evaluate.py
+- md5: 662eb7f64216d9c2c1088d0a5e2c6951
+  path: models/rf.pkl
+outs:
+- md5: 0eaa29dc9b8c89bb9ba1348b3c3cc772
+  path: metrics/rf.metric
+  cache: true
+  metric: false
+  persist: false

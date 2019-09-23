@@ -34,6 +34,6 @@ precision, recall, thresholds = precision_recall_curve(labels, predictions)
 
 auc = metrics.auc(recall, precision)
 
-with open(metrics_file, 'w') as fd:
+with open(metrics_file, 'w+') as fd:
     fd.write('{:4f}\n'.format(auc))
 
