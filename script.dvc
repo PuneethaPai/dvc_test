@@ -1,0 +1,11 @@
+md5: 60f73ee60f1bd283f05d0f1d03c2e644
+cmd: head data/data.xml > test.txt
+deps:
+- md5: 2fef2a936578c5c7479168a0aff7fa5b
+  path: data/data.xml
+outs:
+- md5: 16541a247d809ee0d92199e9e5cf2489
+  path: test.txt
+  cache: true
+  metric: false
+  persist: false
