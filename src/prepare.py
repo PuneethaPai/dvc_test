@@ -16,8 +16,8 @@ split = 0.20
 random.seed(20170426)
 
 input = sys.argv[1]
-output_train = os.path.join('data', 'test', 'train.tsv')
-output_test = os.path.join('data', 'test', 'test.tsv')
+output_train = os.path.join('data', 'prepare', 'train.tsv')
+output_test = os.path.join('data', 'prepare', 'test.tsv')
 
 try:
     reload(sys)
@@ -55,7 +55,7 @@ def process_posts(fd_in, fd_out_train, fd_out_test, target_tag):
             sys.stderr.write('Skipping the broken line {}: {}\n'.format(num, ex))
 
 
-mkdir_p(os.path.join('data', 'test'))
+mkdir_p(os.path.join('data', 'prepare'))
 
 with io.open(input, encoding='utf8') as fd_in:
     with io.open(output_train, 'w', encoding='utf8') as fd_out_train:
