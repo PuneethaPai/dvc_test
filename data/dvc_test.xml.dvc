@@ -1,6 +1,6 @@
-md5: e9f06120f2b1ba3fe28df175ce9535be
+md5: 2471527d4de8d1b448debea53a6d45b0
 outs:
-- md5: 5875f24a6ad9630b50a7028e7bbee7d9
+- md5: 2269e5c09d0da34a95b34bcb564190fa
   path: dvc_test.xml
   cache: true
   metric: false
