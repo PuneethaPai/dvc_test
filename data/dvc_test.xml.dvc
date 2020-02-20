@@ -1,0 +1,7 @@
+md5: e9f06120f2b1ba3fe28df175ce9535be
+outs:
+- md5: 5875f24a6ad9630b50a7028e7bbee7d9
+  path: dvc_test.xml
+  cache: true
+  metric: false
+  persist: false
